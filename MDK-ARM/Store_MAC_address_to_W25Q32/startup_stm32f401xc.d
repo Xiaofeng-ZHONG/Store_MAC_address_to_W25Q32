@@ -1,0 +1,1 @@
+store_mac_address_to_w25q32\startup_stm32f401xc.o: startup_stm32f401xc.s

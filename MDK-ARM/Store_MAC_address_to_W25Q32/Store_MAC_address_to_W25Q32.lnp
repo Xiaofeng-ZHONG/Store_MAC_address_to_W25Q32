@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"store_mac_address_to_w25q32\startup_stm32f401xc.o"
+"store_mac_address_to_w25q32\main.o"
+"store_mac_address_to_w25q32\stm32f4xx_it.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_msp.o"
+"store_mac_address_to_w25q32\w25qxx.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_spi.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_rcc.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_rcc_ex.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_flash.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_flash_ex.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_flash_ramfunc.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_gpio.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_dma_ex.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_dma.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_pwr.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_pwr_ex.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_cortex.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_exti.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_tim.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_tim_ex.o"
+"store_mac_address_to_w25q32\stm32f4xx_hal_uart.o"
+"store_mac_address_to_w25q32\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Store_MAC_address_to_W25Q32\Store_MAC_address_to_W25Q32.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Store_MAC_address_to_W25Q32.map" -o Store_MAC_address_to_W25Q32\Store_MAC_address_to_W25Q32.axf
